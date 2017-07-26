@@ -5,32 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-        crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
 <body>
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-xs-12">
-                <h1>Ro-Sham-Bo</h1>
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col-xs-4 col-xs-offset-4">
+                    <h1>Ro-Sham-Bo</h1>
+                </div>
+            </div>
+            <div class="row button-spacing">
+                <div class="col-xs-4 col-xs-offset-4">
+                    <button class="btn btn-primary" type="button" onclick="play('rock')">Rock</button>
+                    <button class="btn btn-primary" type="button" onclick="play('paper')">Paper</button>
+                    <button class="btn btn-primary" type="button" onclick="play('scissors')">Scissors</button>
+                </div>
+            </div>
+            <div class="row result">
+                <div class="col-xs-4 col-xs-offset-4">
+                    <span id="result">Click any button to play</span>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-xs-12">
-                <button type="button" onclick="play('rock')">Rock</button>
-                <button type="button" onclick="play('paper')">Paper</button>
-                <button type="button" onclick="play('scissors')">Scissors</button>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12">
-                <span id="result">Who won? : </span>
-            </div>
-        </div>
-
     </div>
 
     <script src="app.js"></script>

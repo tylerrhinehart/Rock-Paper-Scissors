@@ -1,3 +1,19 @@
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 body {
   text-align: center;
+}
+
+.result {
+  margin-top: 25vh;
+  font-size: 30px;
+}
+
+.button-spacing {
+  margin-top: 15vh;
+}
+
+.game {
+  background-color: #ddbb9d;
+  border-radius: 5%;
 }
